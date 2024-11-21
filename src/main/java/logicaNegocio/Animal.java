@@ -23,7 +23,7 @@ public abstract class Animal {
     }
 
     public void setObtenerDieta(String obtenerDieta) {
-        this.obtenerDieta = obtenerDieta;
+        this.obtenerDieta = obtenerDieta;kk
     }
     
 }
