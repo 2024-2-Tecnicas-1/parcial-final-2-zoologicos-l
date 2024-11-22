@@ -2,29 +2,20 @@ package logicaNegocio;
 
 public abstract class Animal {
     
-    private String emitirSonido;
-    private String obtenerDieta;
+  private String  emitirSonido;
+  private String  obtenerDieta;
 
-    public Animal(String emitirSonido) {
+    public Animal(String emitirSonido, String obtenerDieta) {
         this.emitirSonido = emitirSonido;
         this.obtenerDieta = obtenerDieta;
     }
-
-    public String getEmitirSonido() {
-        return emitirSonido;
-    }
-
-    public void setEmitirSonido(String emitirSonido) {
-        this.emitirSonido = emitirSonido;
-    }
-
-    public String getObtenerDieta() {
-        return obtenerDieta;
-    }
-
-    public void setObtenerDieta(String obtenerDieta) {
-        this.obtenerDieta = obtenerDieta;kk
-    }
     
-}
+    
+    public abstract String emitirSonido(); 
+    
+    public abstract String obtenerDieta ();
+    
+    public abstract String TipoHabitat ();
 
+  
+}

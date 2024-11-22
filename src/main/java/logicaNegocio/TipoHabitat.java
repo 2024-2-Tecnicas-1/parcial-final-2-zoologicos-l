@@ -1,5 +1,7 @@
 package logicaNegocio;
 
-public enum TipoHabitat {
-    // TODO: Aquí va tu código
+import java.io.Serializable;
+
+public enum TipoHabitat implements Serializable{
+   ACUATICO,TERRESTRE,AEREO;
 }
